@@ -15,7 +15,7 @@ Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size iz
   Aynı ağa bağlı bir telefon/tablet/akıllı televizyon'dan 
   * Running on http://192.168.1.2:8888/ yazan ip adresini tarayıcınıza girin.
   * (Sizde bu adres farklı olacak. App.py'yi açınca ekranda yazan adrese girin.) 
- * Ekran Alıntıları:
+# Ekran Alıntıları:
 <p align="center">
   <a href="https://github.com/ny4rlk0/nyarlko">
     <img src="1.JPG">
