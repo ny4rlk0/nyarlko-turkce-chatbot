@@ -1,9 +1,9 @@
 # nyarlko
 Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size izleyecek anime önerebilir. Sizin için wikipedia'yı arayabilir.
 # Kurulum
-  https://tr.dll-files.com/cudnn64_8.dll.html indirin ve C:\Program Files\NVIDIA\CUDNN\v8.3\bin içerisine atın.
   https://developer.nvidia.com/cuda-downloads indirin ve kurun.
   https://developer.nvidia.com/compute/cudnn/secure/8.3.2/local_installers/11.5/cudnn_8.3.2.44_windows.exe İndirin ve kurun.
+  https://tr.dll-files.com/cudnn64_8.dll.html indirin ve C:\Program Files\NVIDIA\CUDNN\v8.3\bin içerisine atın.
   Bilgisayarı yeniden başlatın.
   build.py dosyasını çalıştırın. (Gereksinimleri otomatik yükleyecek.)
 # Değişiklik
