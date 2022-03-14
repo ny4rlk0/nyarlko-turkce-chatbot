@@ -17,9 +17,9 @@ Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size iz
   * (Sizde bu adres farklı olacak. App.py'yi açınca ekranda yazan adrese girin.) 
 # Ekran Alıntıları:
 <p align="center">
-  <a href="https://github.com/ny4rlk0/nyarlko">
+  <a href="https://github.com/ny4rlk0/nyarlko-turkce-chatbot">
     <img src="1.JPG">
   </a>
-    <a href="https://github.com/ny4rlk0/nyarlko">
+    <a href="https://github.com/ny4rlk0/nyarlko-turkce-chatbot">
     <img src="2.JPG">
   </a>
