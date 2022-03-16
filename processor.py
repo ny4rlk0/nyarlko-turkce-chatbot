@@ -3,9 +3,8 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
-import wikipedia as wiki
-import datetime
-wiki.set_lang("tr")
+import ozellikler.wiki as wiki
+import ozellikler.tarih as tarih
 
 from keras.models import load_model
 model = load_model('chatbot_model.h5')
@@ -71,17 +70,9 @@ def chatbot_response(msg):#Kullanıcı girişi buradan geçiyor. msg= kullanıc�
     if text.startswith("komutlar"):
         return komutlar_aciklamasi
     elif text.startswith("wiki"):
-        try:
-            veri=text.split("wiki ")
-            ozet=wiki.summary(veri[1])
-            ozet=str(ozet)
-        except:return f"Üzgünüm, [{msg}] Wikipedia içerisinde bulamadım!"
-        else:return ozet
-    elif text.startswith("saat") or text.startswith("tarih") or text.startswith("zaman") or text.startswith("gün") or text.startswith("ay") or text.startswith("yıl"):
-        try:
-            suanki_zaman = datetime.datetime.now()
-            return suanki_zaman
-        except:return "Zamanı alırken bir hata ile karşılaştım."
+        return wiki.ara(text)
+    elif text.startswith("saat") or text.startswith("saniye") or text.startswith("tarih") or text.startswith("zaman") or text.startswith("gün") or text.startswith("ay") or text.startswith("yıl") or text.startswith("gun") or text.startswith("yil"):
+        return tarih.al(text)
     #chikapediayı yazılımın içine entegre et.
     #Önce araştırsın sonra job_intents.json içine kaydetsin.
     #Daha sonrada kendisini tekrar inşa etsin. (python build.py)

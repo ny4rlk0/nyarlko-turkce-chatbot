@@ -7,7 +7,7 @@ nltk.download('omw-1.4')
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'CODENAME_ANNIE'
+app.config['SECRET_KEY'] = 'CODENAME_YELLOW'
 
 
 @app.route('/', methods=["GET", "POST"])
