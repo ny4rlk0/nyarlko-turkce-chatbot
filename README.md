@@ -9,7 +9,6 @@ Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size iz
 # Değişiklik
   job_intents.json dosyasındaki örnekler gibi daha çok konuşma ekleyerek botu yükseltebilirsiniz.
   Bu dosyayı her düzenledikten sonra botu kapatıp "build.py" dosyasını yeniden çalıştırmanız gerekir.
-  16.03.2022:2.39 Müzik, Yemek,İçecek,Tatlı önerisi eklendi.
 # Nasıl başlatılır?
   App.py dosyasını açın. Tamamen açılmasını bekleyin.
 # Nasıl konuşulur?
