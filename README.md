@@ -25,4 +25,5 @@ Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size iz
     <img src="2.JPG">
   </a></p>
 # Yenilikler:
-  16.03.2022:2.39 Müzik, Yemek,İçecek,Tatlı önerisi eklendi.
+  16.03.2022:2.39 Müzik, Yemek, İçecek, Tatlı önerisi eklendi.
+  16.03.2022:16.00 Yemekler, Şakalar eklendi. Bazı özellikler processor.py'nin karmaşıklaşmaması için özellik başına dosya olarak yeniden yazıldı.
