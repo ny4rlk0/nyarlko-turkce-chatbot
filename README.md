@@ -17,8 +17,8 @@ Nyarlko Türkçe bir chatbotdur. Basit seviyede sizinle sohbet edebilir. Size iz
   * Running on http://192.168.1.2:8888/ yazan ip adresini tarayıcınıza girin.
   * (Sizde bu adres farklı olacak. App.py'yi açınca ekranda yazan adrese girin.) 
 # Yenilikler
-  16.03.2022:2.39 Müzik, Yemek, İçecek, Tatlı önerisi eklendi.
-  16.03.2022:16.00 Yemekler, Şakalar eklendi. Bazı özellikler processor.py'nin karmaşıklaşmaması için özellik başına dosya olarak yeniden yazıldı.
+  * 16.03.2022:2.39 Müzik, Yemek, İçecek, Tatlı önerisi eklendi.
+  * 16.03.2022:16.00 Yemekler, Şakalar eklendi. Bazı özellikler processor.py'nin karmaşıklaşmaması için özellik başına dosya olarak yeniden yazıldı.
 # Ekran Alıntıları:
 <p align="center">
   <a href="https://github.com/ny4rlk0/nyarlko-turkce-chatbot/blob/main/1.JPG">
